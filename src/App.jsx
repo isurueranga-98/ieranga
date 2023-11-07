@@ -45,7 +45,8 @@ function App() {
             <p className=' text-[18px] mx-3 font-medium'>isurueranga.0@gmail.com</p>
           </div>
         </div>
-        <p className=' text-lg mb-auto'>This website under maintain</p>
+        <p className=' text-lg mb-auto'>This website under maintenance</p>
+        <p className=' text-xs mb-auto'>All Rights Reserved</p>
         
         
       </div>
