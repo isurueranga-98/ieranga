@@ -30,7 +30,7 @@ function App() {
         <div className=' space-x-3 mt-7'>
           <a href="https://github.com/isurueranga-98" ><GitHubIcon/></a>
           <a href="https://www.linkedin.com/in/isuru-eranga-230300110/"><LinkedInIcon/></a>
-          <a href="https://www.facebook.com/profile.php?id=61552382926842"><FacebookIcon/></a>
+          <a href="#"><FacebookIcon/></a>
          
         </div>
 
