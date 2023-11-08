@@ -30,14 +30,14 @@ function App() {
         <div className=' space-x-3 mt-7'>
           <a href="https://github.com/isurueranga-98" ><GitHubIcon/></a>
           <a href="https://www.linkedin.com/in/isuru-eranga-230300110/"><LinkedInIcon/></a>
-          <a href="#"><FacebookIcon/></a>
+          <a href="https://www.facebook.com/profile.php?id=61552382926842"><FacebookIcon/></a>
          
         </div>
 
         <div className='  flex flex-col space-y-3 mt-7 justify-center items-center'>
           <div className='  flex flex-row items-center'>
             <PhoneIcon className=' '/>
-            <p className=' text-[18px] mx-3 font-medium'>+94715357959</p>
+            <p className=' text-[18px] mx-3 font-medium'>+94762605123</p>
           </div>
 
           <div className='  flex flex-row items-center'>
@@ -45,10 +45,6 @@ function App() {
             <p className=' text-[18px] mx-3 font-medium'>isurueranga.0@gmail.com</p>
           </div>
         </div>
-        <p className=' text-lg mb-auto'>This website under maintenance</p>
-        <p className=' text-xs mb-auto'>All Rights Reserved</p>
-        
-        
       </div>
    
     </>
