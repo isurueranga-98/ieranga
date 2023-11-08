@@ -13,7 +13,7 @@ function App() {
 
         <p className=' text-4xl md:text-6xl lg:text-6xl text-cente'>Hello, </p>
 
-        <p className=' text-5xl md:text-7xl lg:text-8xl text-center'>I am <span className=' text-blue-400'>Isuru Eranga</span></p>
+        <p className=' text-5xl md:text-7xl lg:text-8xl text-center font-bold'>I am <span className=' text-blue-400'>Isuru Eranga</span></p>
 
         <div className=' flex flex-col md:flex-row text-center text-xl md:text-2xl lg:text-3xl space-x-3'>
           <p>Data Science Enthusiast</p>
