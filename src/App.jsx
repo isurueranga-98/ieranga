@@ -28,8 +28,8 @@ function App() {
         <p className=' text-lg md:text-xl lg:text-2xl text-center'>Reading BSc (Hons) in Computing & Information Systems at Sabaragmuwa University of Sri Lanka</p>
 
         <div className=' space-x-3 mt-7'>
-          <a href="https://github.com/isurueranga-98" ><GitHubIcon/></a>
           <a href="https://www.linkedin.com/in/isuru-eranga-230300110/"><LinkedInIcon/></a>
+           <a href="https://github.com/isurueranga-98" ><GitHubIcon/></a>
           <a href="#"><FacebookIcon/></a>
          
         </div>
