@@ -37,7 +37,7 @@ function App() {
         <div className='  flex flex-col space-y-3 mt-7 justify-center items-center'>
           <div className='  flex flex-row items-center'>
             <PhoneIcon className=' '/>
-            <p className=' text-[18px] mx-3 font-medium'>+94762605123</p>
+            <p className=' text-[18px] mx-3 font-medium'>+94715357959</p>
           </div>
 
           <div className='  flex flex-row items-center'>
