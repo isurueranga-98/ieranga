@@ -17,7 +17,7 @@ function App() {
   return (
     <>
     
-      <div className=' flex flex-col justify-center items-center h-[800px] space-y-5'>
+      <div className=' flex flex-col justify-center items-center h-[800px] space-y-10'>
 
         <p className=' text-4xl md:text-6xl lg:text-6xl text-cente'>Hello, </p>
 
