@@ -5,7 +5,7 @@ import Logo from './assets/signature1.png'
 
 const Footer = () => {
   return (
-    <div className=' w-ful bg-slate-900 py-5'>
+    <div className=' w-ful bg-[#171717] py-5'>
         <footer className=' flex flex-col justify-center items-center space-y-6'>
 
           <img src={Logo} alt="" className=' w-[100px]'/>
