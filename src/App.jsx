@@ -1,8 +1,7 @@
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import PhoneIcon from '@mui/icons-material/Phone';
-import EmailIcon from '@mui/icons-material/Email';
+
 import JSicon from './assets/icons8-javascript.svg'
 import Ticon from './assets/icons8-tailwind-css.svg'
 import Ricon from './assets/icons8-react.svg'
@@ -13,12 +12,23 @@ import NJicon from './assets/icons8-node-js.svg'
 import TSicon from './assets/icons8-typescript.svg'
 import photo from './assets/photo.png'
 
+const Link = "https://drive.google.com/file/d/1Rukn7Ebsnxjx0ar7vxx5Hf1Oeerv9s7h/view?usp=sharing"
+
 function App() {
+  const DownloadFun = (url) => {
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  }
 
   return (
 
     <>
-    <div className=' flex-col mx-10 pt-24  lg:mx-20 lg:py-7 lg:pt-20 lg:px-28 lg:justify-between lg:flex lg:flex-row lg:h-full lg:items-center'>
+    <div className='flex-col mx-10 pt-24  lg:mx-20 lg:py-7 lg:pt-20 lg:px-28 lg:justify-between lg:flex lg:flex-row lg:h-full lg:items-center'>
 
       <div className=' justify-between items-center space-y-5'>
         <p className=' text-3xl lg:text-4xl'>Hello, </p>
@@ -63,7 +73,7 @@ function App() {
 
           <button className=' h-10 font-medium w-32 lg:h-14 border border-black hover:bg-black hover:text-white'>Contact Me</button>
           
-          <button className=' h-10 font-medium w-32 lg:h-14 border border-black hover:bg-black hover:text-white'>Resume</button>
+          <button className=' h-10 font-medium w-32 lg:h-14 border border-black hover:bg-black hover:text-white' onClick={() => {DownloadFun(Link)}}>Resume</button>
           
         </div>
          
