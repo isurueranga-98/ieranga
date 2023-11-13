@@ -18,7 +18,7 @@ function App() {
   return (
 
     <>
-    <div className=' flex-col mx-10 py-10 md:mx-20  lg:mx-20 lg:py-7 lg:px-28 lg:justify-between lg:flex lg:flex-row lg:h-full lg:items-center'>
+    <div className=' flex-col mx-10 pt-24  lg:mx-20 lg:py-7 lg:pt-20 lg:px-28 lg:justify-between lg:flex lg:flex-row lg:h-full lg:items-center'>
 
       <div className=' justify-between items-center space-y-5'>
         <p className=' text-3xl lg:text-4xl'>Hello, </p>
@@ -32,7 +32,7 @@ function App() {
           <p>UI UX Designer</p>
          </div>
 
-         <p className=' text-l  lg:text-xl'>Reading BSc (Hons) in Computing & Information Systems at Sabaragmuwa University of Sri Lanka</p>
+         {/* <p className=' text-l  lg:text-xl'>Reading BSc (Hons) in Computing & Information Systems at Sabaragmuwa University of Sri Lanka</p> */}
         
          <div className='flex flex-row items-center space-x-4 m lg:space-x-7'>
            
