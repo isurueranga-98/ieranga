@@ -17,8 +17,8 @@ const Aboutme = () => {
 
 
             <div className=' w-90 lg:w-[45rem] space-y-2' >
-                <p className=' text-2xl font-semibold'>About Me</p>
-                <p className=' text-xl text-justify '>Hello there! I'm Isuru Eranga, currently immersed in the world of technology as I pursue a BSc (Hons) in Computing & Information Systems at Sabaragmuwa University of Sri Lanka. With a passion for harnessing the power of data, I proudly identify as a Data Science Enthusiast. As a Full Stack Developer, I revel in the intricate dance between front-end and back-end technologies, bringing ideas to life through seamless, user-centric interfaces. My creative flair extends to UI/UX design, where I strive to marry aesthetics with functionality. Join me on my journey as I explore the ever-evolving landscape of computing and contribute to the exciting intersection of data science, development, and design.</p>
+                <p className=' text-xl lg:text-2xl font-semibold'>About Me</p>
+                <p className=' text-lg lg:text-xl text-justify '>Hello there! I'm Isuru Eranga, currently immersed in the world of technology as I pursue a BSc (Hons) in Computing & Information Systems at Sabaragmuwa University of Sri Lanka. With a passion for harnessing the power of data, I proudly identify as a Data Science Enthusiast. As a Full Stack Developer, I revel in the intricate dance between front-end and back-end technologies, bringing ideas to life through seamless, user-centric interfaces. My creative flair extends to UI/UX design, where I strive to marry aesthetics with functionality. Join me on my journey as I explore the ever-evolving landscape of computing and contribute to the exciting intersection of data science, development, and design.</p>
             </div>
         </div>
     
