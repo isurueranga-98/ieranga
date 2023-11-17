@@ -10,7 +10,7 @@ import Picon from './assets/icons8-python.svg'
 import Ficon from './assets/icons8-figma.svg'
 import NJicon from './assets/icons8-node-js.svg'
 import TSicon from './assets/icons8-typescript.svg'
-import photo from './assets/photo.png'
+import photo from './assets/ieranga.png'
 
 const Link = "https://drive.google.com/file/d/1Rukn7Ebsnxjx0ar7vxx5Hf1Oeerv9s7h/view?usp=sharing"
 
