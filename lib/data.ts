@@ -50,48 +50,47 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Ceyloneses Resturante",
+    title: "Classic Teak Furniture ",
     description:
-      "Ceylonese is a Sri Lanka authentic food resturent located on Singapore.",
-    tags: ["React", "Next.js", "Tailwind", "Figma", "Redux"],
-    imageUrl: '/ceylonese.jpg',
+      "An e-commerce website for a furniture company featuring an augmented reality (AR) tool allowing customers to virtually place and view furniture products in their own space. This platform facilitates online sales and showcases a diverse range of furniture items, providing an immersive and interactive shopping experience for users. ",
+    tags: [ "Next.js", "Tailwind", "Figma", "Redux" ,"MongoDB", "TypeScript", "Node JS"],
+    imageUrl: '/Landing.png',
   },
   {
-    title: "Hello Green",
+    title: "LabLynx",
     description:
-      "HelloGreen is an innovative web platform dedicated to addressing the pressing issue of non-biodegradable waste management.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: '/hellogreen.jpg',
+      "A comprehensive web-based system designed for a medical laboratory enabling efficient patient registration, detailed recording of test information, and automated report generation. The system allows reports to be printed or emailed to users and includes advanced data analysis capabilities to predict patterns and trends in medical test results, enhancing diagnostic accuracy and operational efficiency.",
+    tags: ["Next.js", "Tailwind", "Figma", "Redux" ,"MongoDB", "TypeScript", "Node JS"],
+    imageUrl: '/LabLynx.png',
+  },
+  {
+    title: "NisaBookland",
+    description:
+      "An e-commerce website designed for a book publication and bookshop company, enabling the seamless online sale and management of books. This  platform provides customers with a user-friendly interface to browse,  purchase, and track orders, while also offering robust tools for the company  to manage inventory, process transactions, and promote new releases and bestsellers. ",
+    tags: ["Next.js", "Tailwind", "Figma", "Redux" ,"MongoDB", "TypeScript", "Node JS"],
+    imageUrl: '/Nisa.png',
   },
 ] as const;
 
 
 export const projectsData2 = [
   {
-    title: "Hello Green",
+    title: "Hello Green 123",
     description:
       "HelloGreen is an innovative web platform dedicated to addressing the pressing issue of non-biodegradable waste management.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: '/hellogreen.jpg',
+    imageUrl: '/',
   },
   {
     title: "Ceyloneses Resturante",
     description:
       "Ceylonese is a Sri Lanka authentic food resturent located on Singapore.",
     tags: ["React", "Next.js", "Tailwind", "Figma", "Redux"],
-    imageUrl: '/ceylonese.jpg',
+    imageUrl: '/',
   },
   
   
@@ -123,7 +122,32 @@ export const projectsData3 = [
 
 
 
-
+export const skil = [
+  {
+    title: "React JS ",
+    imageUrl: '/icons8-react.svg',
+  },
+  {
+    title: "JavaScript",
+    imageUrl: '/icons8-javascript.svg',
+  },
+  {
+    title: "TailwindCSS",
+    imageUrl: '/icons8-tailwind-css.svg',
+  },
+  {
+    title: "Node JS",
+    imageUrl: '/icons8-node-js.svg',
+  },
+  {
+    title: "TtpeScript",
+    imageUrl: '/icons8-typescript.svg',
+  },
+  {
+    title: "Next JS",
+    imageUrl: '/icons8-nextjs.svg',
+  },
+] as const;
 
 
 

@@ -22,32 +22,7 @@ export default function Projects() {
   const [isUiActive, setisUiActive] = useState(false);
   const [isDataActive, setisDataActive] = useState(false);
 
-  const webhandleClick = () => {
-    setisWebActive(true);
-    setisUiActive(false);
-    setisDataActive(false);
-    setIsUiDataVisible(false);
-    setIsDataDataVisible(false);
-    setIsWebDataVisible(true); 
-  };
-  const UihandleClick = () => {
-    setisWebActive(false);
-    setisUiActive(true);
-    setisDataActive(false);
-    setIsWebDataVisible(false);
-    setIsDataDataVisible(false);
-    setIsUiDataVisible(true); 
 
-  };
-  const datahandleClick = () => {
-    setisWebActive(false);
-    setisUiActive(false);
-    setisDataActive(true);
-    setIsWebDataVisible(false);
-    setIsUiDataVisible(false);
-    setIsDataDataVisible(true); 
-
-  };
 
   
   return (
@@ -55,23 +30,9 @@ export default function Projects() {
       <motion.div initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
 
       
-      <SectionHeading>My projects</SectionHeading>
-      <div className=" mb-5 flex justify-center items-center gap-10 text-sm  md:text-lg lg:text-xl">
-        <button onClick={webhandleClick} className={`${isWebActive ? ' bg-black/70 text-white dark:bg-white/10 dark:text-white/60' : ' '} p-3 rounded-full `}>
-          Web Project
-        </button>
-        <button onClick={UihandleClick} className={`${isUiActive ? ' bg-black/70 text-white dark:bg-white/10 dark:text-white/60' : ' '} p-3 rounded-full `}>
-          UI UX Project
-        </button>
-        {/* <button onClick={datahandleClick} className={`${isDataActive ? ' bg-black/70 text-white dark:bg-white/10 dark:text-white/60' : ' '} p-3 rounded-full `}>
-          Data Science Project
-        </button> */}
-      </div>
-      
-      
-      
+      <SectionHeading>My Latests projects</SectionHeading>
   
-      <Link href='http://www.facebook.com'>
+      <Link href='/'>
       
         {isWebDataVisible && (
           <div>
@@ -85,7 +46,7 @@ export default function Projects() {
       </Link>
         
       
-      <Link href='http://www.google.com'>
+      <Link href='/'>
       {isUiDataVisible && (
         <div>
           {projectsData2.map((project, index) => (

@@ -10,7 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
-
+import { motion } from "framer-motion";
 
 
 export default function Experience() {
@@ -19,9 +19,15 @@ export default function Experience() {
   const [isVisible, setIsVisible] = useState(true);
 
   return (
-    <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
-      {/* <SectionHeading>My experience</SectionHeading>
-      {isVisible && (
+    <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40 flex flex-col  items-center justify-center">
+      <motion.div 
+          initial={{ opacity: 0, scale: 0 }} 
+          animate={{ opacity: 1, scale: 1 }} 
+          transition={{ type: "tween", duration: 0.2 }}
+        >
+      
+      <SectionHeading>My experience</SectionHeading>
+      {/* {isVisible && (
         <VerticalTimeline lineColor="" >
           {experiencesData.map((item, index) => (
             <React.Fragment key={index}>
@@ -59,22 +65,35 @@ export default function Experience() {
         </VerticalTimeline>
       )} */}
 
-      <h1>Experience</h1>
+
+          
+
+      <div className="flex flex-col gap-10">
+
+        <div className=" flex flex-col gap-3">
+          <p className=" text-xl font-bold">Freelancer</p>
+          <p>2023 – Present</p>
+          <p>Fullstack Developer (React JS, Next JS, Typescript, Tailwind CSS, Node JS)</p>
+        </div>
+
+
+        <div className="flex flex-col gap-3">
+          <p className=" text-xl font-bold">Graphic Designer   </p>
+          <p>May 2023 - Present </p>
+          <p>Remote Graphic Designer at Asiri Trading, Singapore </p>
+        </div>
+
+      </div>
+
+        </motion.div>
+
+      
     </section>
 
-    // <section>
-    //     <SectionHeading>My</SectionHeading>
-    //     <VerticalTimeline>
-    //       {experiencesData.map((item, index) => (
-    //         <React.Fragment key={index}>
-    //             <VerticalTimelineElement>
-    //               <h3>{item.title}</h3>
-    //               <p>{item.location}</p>
-    //               <p>{item.description}</p>
-    //             </VerticalTimelineElement>
-    //         </React.Fragment>
-    //       ))}
-    //     </VerticalTimeline>
-    // </section>
+    // 
   );
 }
+
+
+
+// className="scroll-mt-28 mb-28 sm:mb-40" this is the correct classname
