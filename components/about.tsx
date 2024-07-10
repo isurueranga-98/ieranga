@@ -20,7 +20,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <div className=" flex flex-col lg:flex-row-reverse items-center justify-center lg:gap-10 lg:text-justify">
-        <p className="mb-3 w-1/2">
+        <p className="mb-3 w-full">
           Hello there! I'm Isuru Eranga, currently immersed in the world of technology as I pursue a BSc (Hons) in Computing & Information Systems at Sabaragmuwa University of Sri Lanka. With a passion for harnessing the power of data, I proudly identify as a Data Science Enthusiast. As a Full Stack Developer, I revel in the intricate dance between front-end and back-end technologies, bringing ideas to life through seamless, user-centric interfaces. My creative flair extends to UI/UX design, where I strive to marry aesthetics with functionality. Join me on my journey as I explore the ever-evolving landscape of computing and contribute to the exciting intersection of data science, development, and design.
         </p>
           <motion.div className=" flex items-center justify-center" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} >
