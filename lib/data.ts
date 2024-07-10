@@ -147,6 +147,26 @@ export const skil = [
     title: "Next JS",
     imageUrl: '/icons8-nextjs.svg',
   },
+  {
+    title: "FIgma",
+    imageUrl: '/icons8-figma.svg',
+  },
+  {
+    title: "Redux",
+    imageUrl: '/icons8-redux.svg',
+  },
+  {
+    title: "C",
+    imageUrl: '/icons8-c.svg',
+  },
+  {
+    title: "Java",
+    imageUrl: '/icons8-java.svg',
+  },
+  {
+    title: "Python",
+    imageUrl: '/icons8-python.svg',
+  },
 ] as const;
 
 
