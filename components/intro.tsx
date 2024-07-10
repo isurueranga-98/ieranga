@@ -49,14 +49,14 @@ export default function Intro() {
           </div>
 
           <motion.div className=" mt-5 flex gap-3 items-center justify-center] " initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} transition={{ type: "tween", duration: 0.2, }}>
-            {/* <Image src='/icons8-figma.svg' width={50} height={50} alt="figma" className=" w-[30px] h-[30px]"/>
+            <Image src='/icons8-figma.svg' width={50} height={50} alt="figma" className=" w-[30px] h-[30px]"/>
             <Image src='/icons8-javascript.svg' width={50} height={50} alt="figma" className=" w-[30px] h-[30px]"/>
             <Image src='/icons8-nextjs.svg' width={50} height={50} alt="figma" className=" w-[30px] h-[30px]"/>
             <Image src='/icons8-node-js.svg' width={50} height={50} alt="figma" className=" w-[30px] h-[30px]"/>
             <Image src='/icons8-python.svg' width={50} height={50} alt="figma" className=" w-[30px] h-[30px]"/>
             <Image src='/icons8-react.svg' width={50} height={50} alt="figma" className=" w-[30px] h-[30px]"/>
             <Image src='/icons8-tailwind-css.svg' width={50} height={50} alt="figma" className=" w-[30px] h-[30px]"/>
-            <Image src='/icons8-typescript.svg' width={50} height={50} alt="figma" className=" w-[30px] h-[30px]"/> */}
+            <Image src='/icons8-typescript.svg' width={50} height={50} alt="figma" className=" w-[30px] h-[30px]"/>
           </motion.div>
 
           <motion.div className=" mt-5" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{delay: 0.1, }} >
@@ -89,7 +89,7 @@ export default function Intro() {
                   href="https://www.linkedin.com/in/isuru-eranga-230300110/"
                   target="_blank"
                 >
-                  {/* <BsLinkedin /> */}
+                  <BsLinkedin />
                 </a>
 
                 <a
@@ -97,21 +97,21 @@ export default function Intro() {
                   href="https://github.com/isurueranga-98"
                   target="_blank"
                 >
-                  {/* <FaGithubSquare /> */}
+                  <FaGithubSquare />
                 </a>
                 <a
                   className="bg-white p-4 text-gray-700 flex items-center justify-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
                   href="https://www.facebook.com/?_rdc=1&_rdr"
                   target="_blank"
                 >
-                  {/* <BsFacebook /> */}
+                  <BsFacebook />
                 </a>
                 <a
                   className="bg-white p-4 text-gray-700 flex items-center justify-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
                   href="https://instagram.com"
                   target="_blank"
                 >
-                  {/* <BsInstagram /> */}
+                  <BsInstagram />
                 </a>
             </div>
           </motion.div>
