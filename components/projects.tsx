@@ -30,7 +30,7 @@ export default function Projects() {
       <motion.div initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
 
       
-      <SectionHeading>My Latests projects</SectionHeading>
+      <SectionHeading>My Latest projects</SectionHeading>
   
       <Link href='/'>
       
