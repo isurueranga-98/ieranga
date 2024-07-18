@@ -140,7 +140,7 @@ export const skil = [
     imageUrl: '/icons8-node-js.svg',
   },
   {
-    title: "TtpeScript",
+    title: "TypeScript",
     imageUrl: '/icons8-typescript.svg',
   },
   {
