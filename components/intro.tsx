@@ -41,7 +41,7 @@ export default function Intro() {
               <span className="">Data Science Enthusiast</span>
             </motion.h1>
             <motion.h1 className=" text-lg font-light !leading-[1.5] sm:text-2xl lg:text-lg" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} >
-              <span className="">Frontend Developer</span>
+              <span className="">Full Stack Developer</span>
             </motion.h1>
             <motion.h1 className=" text-lg font-light !leading-[1.5] sm:text-2xl lg:text-lg" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} >
               <span className="">UI UX Designer</span>
